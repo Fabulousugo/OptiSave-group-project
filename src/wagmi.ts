@@ -4,7 +4,7 @@ import { goerli, mainnet } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 
 const { chains, provider, webSocketProvider } = configureChains(
-  [mainnet, ...(import.meta.env?.MODE === 'development' ? [goerli] : [])],
+  [goerli, ...(import.meta.env?.MODE === 'development' ? [mainnet] : [])],
   [
     publicProvider(),
   ],
