@@ -1,22 +1,21 @@
 import React from 'react';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useAccount } from 'wagmi';
-import Logo from '../../images/2009 (1).ico'
+import Logo from '../../images/Optisaver__.png'
 
-function Navbar() {
+const Navbar = () => {
   const { isConnected } = useAccount();
   
   // Replace "YOUR_RAINBOWKIT_URL_HERE" with the actual URL for the Rainbowkit website
   const rainbowkitUrl = encodeURIComponent("YOUR_RAINBOWKIT_URL_HERE");
   const wagmiConnectUrl = `https://www.wagmii.com/connect?returnUrl=${rainbowkitUrl}`;
 
-  
   return (
     <nav style={{ 
       display: "flex", 
       justifyContent: "space-between", 
       alignItems: "center", 
-      background: '#000914', 
+      background: '#000000', 
       color: '#FFB60A', 
       padding: "1rem", 
       width: "100%", 
@@ -25,10 +24,9 @@ function Navbar() {
       left: 0,
       zIndex: 1,
     }}>
-
       <div>
-        <a href="#home">
-          <img src={Logo} alt="Logo" style={{height:'60px' }} />
+        <a href="#">
+          <img src={Logo} alt="Logo" style={{height:'100px' }} />
         </a>
       </div>
       <ul style={{ 
@@ -38,14 +36,13 @@ function Navbar() {
         listStyle: "none", 
         marginRight:'2rem' 
       }}>
-        <li><a href="#home" style={{ color: "#fff", textDecoration: "none", margin: "0 1rem" }}>Home</a></li>
-        <li><a href="#about" style={{ color: "#fff", textDecoration: "none", margin: "0 1rem" }}>About</a></li>
-        <li><a href="#contact" style={{ color: "#fff", textDecoration: "none", margin: "0 1rem" }}>Contact</a></li>
+        <li ><a href="#Intro" style={{ color: "#ffd700", textDecoration: "none", margin: "0 1rem" }}>Save</a></li>
+        <li><a href="#about" style={{ color: "#ffd700", textDecoration: "none", margin: "0 1rem" }}>About</a></li>
+        <li><a href="#tips" style={{ color: "#ffd700", textDecoration: "none", margin: "0 1rem" }}>Tips</a></li>
         <li><ConnectButton /></li>
-        
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;

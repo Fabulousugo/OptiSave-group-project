@@ -1,19 +1,21 @@
 require("@nomicfoundation/hardhat-toolbox");
+require('dotenv').config()
+
 
 /** @type import('hardhat/config').HardhatUserConfig */
 
 module.exports = {
-  defaultNetwork: "goerli",
+  defaultNetwork: "sepolia",
   networks: {
     hardhat: {
     },
-    goerli: {
-      url: "https://goerli.infura.io/v3/4a0b452ac36f48e486ae705b196456a2",
-      accounts: ['e439ae6593376e149f0421f7ae7b3c777cc1da5e7d47923766f2e0f85030e723']
+    sepolia: {
+      url: "process.env.IFURA_URL",
+      accounts: ['process.env.PRIVATE_KEY']
     }
   },
   solidity: {
-    version: "0.8.0",
+    version: "0.8.18",
     settings: {
       optimizer: {
         enabled: true,
