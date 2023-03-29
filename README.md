@@ -61,6 +61,21 @@ To learn more about [Vite](https://vitejs.dev/), [RainbowKit](https://rainbowkit
 
 # Smart Contract
 
+## 🔧 Technology Stack & Tools
+
+
+
+- [Ethers](https://docs.ethers.io/)
+<br/>
+
+- [Hardhat](https://hardhat.org/)
+<br/>
+
+- [MetaMask]() (User Authentication)
+
+## **Project Website Link**
+
+- https://optisave.netlify.app
 
 > ## ⭐ Show Your Support
 > If you like this project, do not forget to give ⭐s. So it can get more attention and get more support from the community. Don't underestimate one star, one star you give will convince others to give the project another star.
