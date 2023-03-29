@@ -74,6 +74,8 @@ To learn more about [Vite](https://vitejs.dev/), [RainbowKit](https://rainbowkit
 
 - [Hardhat](https://hardhat.org/)
 <br/>
+- [Remix](https://remix.ethereum.org/)
+<br/>
 
 - [MetaMask]() (User Authentication)
 
