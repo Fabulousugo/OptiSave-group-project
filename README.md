@@ -6,6 +6,9 @@
 <strong>This is a simple application of the blockchain technology. with some basic functionalities:</strong>
 <br> 
 
+# Please test with a sepolia account and also note that we keep improving the functionalities of our Dapp, and the the user esperience also.
+HAVE FUN TESTING!! <br> <br>
+
 **One**
 
 
