@@ -1,11 +1,13 @@
 <div align="center">
     <img src="public/logo.gif" height="70" alt="Lenster Logo">
     <h1>OPTISAVE</h1>
-    <strong>A decentralized crypto bank 🌿</strong>
+    <strong align="center">A decentralized crypto bank 🌿</strong>
 </div>
 <strong>This is a simple application of the blockchain technology. with some basic functionalities:</strong>
 <br> 
-**one**
+
+**One**
+
 
 Deposit amount must be greater than zero
 
@@ -13,20 +15,31 @@ Deposit amount must be greater than zero
 Deposit amount cannot be greater than 1000 ether
 
 <br>
-two
+
+
+**two**
+
+
 
 Withdrawal amount must be greater than zero
 
 <br>
-three
+
+**three**
 
 Withdrawal amount cannot be greater than 1 ether
 <br>
-fourth
+
+**four**
+
 
 1% fee on withdrawals
 <br>
+<br>
+<br>
+<br>
 
+# FrontEnd
 
 This is a [wagmi](https://wagmi.sh) + [RainbowKit](https://rainbowkit.com) + [Vite](https://vitejs.dev/) project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
 
@@ -46,7 +59,7 @@ To learn more about [Vite](https://vitejs.dev/), [RainbowKit](https://rainbowkit
 - [Vite Documentation](https://vitejs.dev/) – learn about Vite features and API.
 
 
-
+# Smart Contract
 
 
 > ## ⭐ Show Your Support
