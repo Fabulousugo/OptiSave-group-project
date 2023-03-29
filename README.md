@@ -1,3 +1,14 @@
+# OPTISAVE
+This is a simple application of the blockchain technology. with some basic functionalities:
+##one
+
+Deposit amount must be greater than zero
+
+&&
+Deposit amount cannot be greater than 1000 ether
+
+
+
 This is a [wagmi](https://wagmi.sh) + [RainbowKit](https://rainbowkit.com) + [Vite](https://vitejs.dev/) project bootstrapped with [`create-wagmi`](https://github.com/wagmi-dev/wagmi/tree/main/packages/create-wagmi)
 
 # Getting Started
