@@ -61,6 +61,9 @@ To learn more about [Vite](https://vitejs.dev/), [RainbowKit](https://rainbowkit
 - [wagmi Examples](https://wagmi.sh/examples/connect-wallet) – a suite of simple examples using wagmi.
 - [RainbowKit Documentation](https://rainbowkit.com/docs/introduction) – learn more about RainbowKit (configuration, theming, advanced usage, etc).
 - [Vite Documentation](https://vitejs.dev/) – learn about Vite features and API.
+- [
+**Styled using Bulma CSS**
+- (https://bulma.io)]
 
 
 # Smart Contract
